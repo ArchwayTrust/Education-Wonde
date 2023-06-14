@@ -1,4 +1,4 @@
-# Education-Wonde
+# Wonde Ingestion
 Spark notebooks for ingesting education data from Wonde API. They're built for use in Fabric but should mostly be platform agnostic.
 
 - Wonde API Reference (https://docs.wonde.com/docs/api/sync) 
