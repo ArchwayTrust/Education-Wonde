@@ -16,8 +16,12 @@ Houses struct defintions for data coming out of Wonde API. These are often neste
 ### /Notebooks/_WondeAPI.ipynb
 Core function for getting data from the API
 
+### /Notebooks/GetSchools.ipynb
+Gets details of approved schools.
+
 ### /Notebooks/GetStudents.ipynb
-Currently static and pulls data for one school. Flattens a struct and writes delta to datalake. Currently just overwrite.
+Iterates through approved schools and gets basic student data. Flattens a struct and writes delta to datalake. Currently just overwrite.
+Needs to also fetch left students which are on a separate end point.
 
 
 
