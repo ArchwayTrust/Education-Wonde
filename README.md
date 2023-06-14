@@ -11,6 +11,7 @@ Also setup up imports and gets the API secret.
 
 ### /Notebooks/_WondeStructs.ipynb
 Houses struct defintions for data coming out of Wonde API. These are often nested structures and need to be flattened before writing to delta.
+- Currently only a small section of the student structure is in here for test purposes.
 
 ### /Notebooks/_WondeAPI.ipynb
 Core function for getting data from the API
